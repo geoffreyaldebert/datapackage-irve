@@ -9,7 +9,7 @@
     "resources": [
         {
             "title": "Exemple de fichier IRVE valide",
-            "path": "https://github.com/etalab/schema-irve/raw/v2.0.3/exemple-valide.csv"
+            "path": "https://github.com/etalab/schema-irve/raw/v2.0.3/exemple-valide-statique.csv"
         }
     ],
     "sources": [
