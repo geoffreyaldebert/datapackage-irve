@@ -5,7 +5,7 @@
     "id": "comptage-mobilite",
     "resources": [
         {
-          "name": "irve dynamique",
+          "name": "irve-dynamique",
           "path": "exemple-valide-dynamique.csv",
           "profile": "tabular-data-resource",
           "format": "csv",
@@ -14,8 +14,8 @@
           "schema": "schema-dynamique.json"
         },
         {
-          "name": "irve statique",
-          "path": "exemple-valide-channel.csv",
+          "name": "irve-statique",
+          "path": "exemple-valide-statique.csv",
           "profile": "tabular-data-resource",
           "format": "csv",
           "mediatype": "text/csv",
