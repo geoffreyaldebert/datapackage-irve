@@ -1,26 +1,28 @@
 {
-    "name": "irve",
+    "name": "irve-dtpkg",
     "title": "Infrastructures recharges véhicules électriques",
     "description": "data package d'exemple pour les lieux proposant des services",
     "id": "comptage-mobilite",
     "resources": [
         {
           "name": "irve-dynamique",
-          "path": "exemple-valide-dynamique.csv",
+          "path": "dynamique/exemple-valide-dynamique.csv",
           "profile": "tabular-data-resource",
           "format": "csv",
           "mediatype": "text/csv",
           "encoding": "utf-8",
-          "schema": "schema-dynamique.json"
+          "schema": "dynamique/schema-dynamique.json",
+          "documentation": "dynamique/README.md"
         },
         {
           "name": "irve-statique",
-          "path": "exemple-valide-statique.csv",
+          "path": "statique/exemple-valide-statique.csv",
           "profile": "tabular-data-resource",
           "format": "csv",
           "mediatype": "text/csv",
           "encoding": "utf-8",
-          "schema": "schema-statique.json"
+          "schema": "statique/schema-statique.json",
+          "documentation": "statique/README.md"
         }
       ]
     }
