@@ -1,15 +1,15 @@
 {
     "$schema": "https://frictionlessdata.io/schemas/table-schema.json",
     "name": "irve-statique",
-    "title": "Infrastructures de recharge pour véhicules électriques",
+    "title": "IRVE statique",
     "description": "Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques",
     "countryCode": "FR",
     "homepage": "https://github.com/etalab/schema-irve",
-    "path": "https://github.com/etalab/schema-irve/raw/v2.0.4/schema.json",
+    "path": "https://github.com/etalab/schema-irve/raw/v2.0.3/schema.json",
     "resources": [
         {
             "title": "Exemple de fichier IRVE valide",
-            "path": "https://github.com/etalab/schema-irve/raw/v2.0.4/exemple-valide-statique.csv"
+            "path": "https://github.com/etalab/schema-irve/raw/v2.0.3/exemple-valide-statique.csv"
         }
     ],
     "sources": [
@@ -32,7 +32,7 @@
     ],
     "created": "2018-06-29",
     "lastModified": "2022-08-26",
-    "version": "2.0.4",
+    "version": "2.0.3",
     "contributors": [
         {
             "title": "Alexandre Bulté",

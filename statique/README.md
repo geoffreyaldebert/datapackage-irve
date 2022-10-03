@@ -1,2 +1,3 @@
-SCHEMA STATIQUE TEST
-!!!!
+IRVE Statique
+
+v2.0.3

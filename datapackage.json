@@ -1,8 +1,8 @@
 {
-    "name": "irve-dtpkg",
-    "title": "Infrastructures recharges véhicules électriques",
-    "description": "data package d'exemple pour les lieux proposant des services",
-    "id": "comptage-mobilite",
+    "name": "datapackage-irve",
+    "title": "Infrastructures de recharges pour véhicules électriques",
+    "description": "data package d'exemple pour les IRVE (statique et dynamique)",
+    "id": "datapackage-irve",
     "resources": [
         {
           "name": "irve-dynamique",
