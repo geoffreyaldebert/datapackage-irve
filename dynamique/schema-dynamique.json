@@ -5,11 +5,11 @@
     "description": "Spécification du fichier d'échange relatif aux données concernant la localisation géographique et les caractéristiques techniques des stations et des points de recharge pour véhicules électriques",
     "countryCode": "FR",
     "homepage": "https://github.com/etalab/schema-irve",
-    "path": "https://github.com/etalab/schema-irve/raw/v2.0.3/schema.json",
+    "path": "https://github.com/etalab/schema-irve/raw/v2.0.4/schema.json",
     "resources": [
         {
             "title": "Exemple de fichier IRVE valide",
-            "path": "https://github.com/etalab/schema-irve/raw/v2.0.3/exemple-valide-dynamique.csv"
+            "path": "https://github.com/etalab/schema-irve/raw/v2.0.4/exemple-valide-dynamique.csv"
         }
     ],
     "sources": [
@@ -32,7 +32,7 @@
     ],
     "created": "2018-06-29",
     "lastModified": "2022-08-26",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "contributors": [
         {
             "title": "Geoffrey",
@@ -59,6 +59,16 @@
             "constraints": {
                 "required": true,
                 "pattern": "^\\d{9}$"
+            }
+        },
+        {
+            "name": "contact_amenageur",
+            "description": "Adresse courriel de l'aménageur. Favoriser les adresses génériques de contact. Cette adresse sera utilisée par les services de l'Etat en cas d'anomalie ou de besoin de mise à jour des données.",
+            "example": "contact@societe-amenageur.com",
+            "type": "string",
+            "format": "email",
+            "constraints": {
+                "required": true
             }
         }
     ],

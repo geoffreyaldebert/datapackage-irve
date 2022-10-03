@@ -1,5 +1,11 @@
 # Changements
 
+
+## 2.0.4
+
+- Ajout d'un champ sur le schéma dynamique
+- mise à jour de la CI pour être adapté au datapackage
+
 ## 2.0.3
 
 - Clarification de la description du champ `condition_acces`
